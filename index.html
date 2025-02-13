@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Bebek Hitam Madura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Toko Bebek Hitam Madura</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#keranjang">Keranjang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Selamat datang di Toko Bebek Hitam Madura!</h2>
+        <p>Rasakan sensasi bebek hitam yang lezat dan khas Madura.</p>
+    </section>
+
+    <section id="produk" class="produk">
+        <h2>Produk Kami</h2>
+        <div class="produk-list">
+         
+            <div class="produk-item">
+                <img src="bebek1.jpg" alt="Bebek Hitam Madura">
+                <h3>Bebek Hitam Madura</h3>
+                <p>Harga: Rp 100.000</p>
+                <button onclick="tambahKeKeranjang('Bebek Hitam Madura', 100000)">Tambahkan ke Keranjang</button>
+            </div>
+            
+			 <div class="produk-list">
+            <!-- Produk 1 -->
+            <div class="produk-item">
+                <img src="bebek2.jpg" alt="Ayam Hitam Madura">
+                <h3>Ayam Hitam Madura</h3>
+                <p>Harga: Rp 50.000</p>
+                <button onclick="tambahKeKeranjang('Ayam Hitam Madura', 100000)">Tambahkan ke Keranjang</button>
+            </div>
+			
+			
+        </div>
+    </section>
+
+    <section id="keranjang" class="keranjang">
+        <h2>Keranjang Belanja</h2>
+        <ul id="daftarKeranjang">
+            <!-- Keranjang akan tampil di sini -->
+        </ul>
+        <p id="totalHarga">Total: Rp 0</p>
+    </section>
+
+    <footer id="kontak">
+        <p>Hubungi kami di: <a href="food bebek madura">food bebek madura</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
